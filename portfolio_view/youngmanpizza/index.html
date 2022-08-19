@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>청년피자</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- Stats.js -->
+    <script src="https://dl.dropbox.com/s/m1qor6z15o64wkc/stats.min.js?dl=0"></script>
+    <!-- dat.gui.js -->
+    <script src="https://dl.dropbox.com/s/sk7fbhx9burholi/dat.gui.min.js?dl=0"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://kit.fontawesome.com/b7162c9d50.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+            <h1 class="logo"><a href="#"><img src="img/logo.png"></a></h1>
+            <p class="btn_H"><a href="#"><img src="img/btn_H.png"></a></p>
+            <div class="search">
+                <form id="searchBox" name="searchBox">
+                    <input type="text" placeholder="매장명 또는 지역명" id="keyword" name="keyword">
+                    <a href="#" class="submit">확인</a>
+                </form> <!-- searchBox -->
+            </div> <!-- search -->
+            <div class="headerin">
+                <nav class="mainM">
+                    <ul class="gnb clear">
+                        <li>
+                            <a href="#">BRAND</a>
+                            <span></span>
+                            <ul class="sub">
+                                <li><a href="#">회사소개</a></li>
+                                <li><a href="#">BSB GROUP</a></li>
+                                <li><a href="#">보도자료</a></li>
+                                <li><a href="#">인재채용</a></li>
+                                <li><a href="#">오시는길</a></li>
+                            </ul> <!-- gnb_sub -->
+                        </li>
+                        <li>
+                            <a href="#">MENU</a>
+                            <span></span>
+                            <ul class="sub">
+                                <li><a href="#">오리지널 피자</a></li>
+                                <li><a href="#">프리미엄 피자</a></li>
+                                <li><a href="#">세트메뉴</a></li>
+                                <li><a href="#">사이드메뉴</a></li>
+                                <li><a href="#">토핑추가</a></li>
+                                <li><a href="#">음료&기타</a></li>
+                            </ul> <!-- gnb_sub -->
+                        </li>
+                        <li>
+                            <a href="#">STORE</a>
+                            <span></span>
+                            <ul class="sub">
+                                <li><a href="#">창업문의</a></li>
+                                <li><a href="#">창업비용</a></li>
+                                <li><a href="#">개설절차</a></li>
+                                <li><a href="#">교육시스템</a></li>
+                            </ul> <!-- gnb_sub -->
+                        </li>
+                        <li>
+                            <a href="#">EVENT</a>
+                            <span></span>
+                            <ul class="sub">
+                                <li><a href="#">할인 이벤트</a></li>
+                                <li><a href="#">태연 포카 이벤트</a></li>
+                                <li><a href="#">쿠폰 이벤트</a></li>
+                                <li><a href="#">이벤트 미리보기</a></li>
+                            </ul> <!-- gnb_sub -->
+                        </li>
+                        <li>
+                            <a href="#">more</a>
+                            <span></span>
+                            <ul class="sub">
+                                <li><a href="#">고객센터</a></li>
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">QnA</a></li>
+                                <li><a href="#">광고 갤러리</a></li>
+                        </li>
+                    </ul>
+                    </ul> <!-- gnb -->
+                    <div class="subBG"></div>
+                </nav> <!-- mianM -->
+            </div> <!-- headerin -->
+        </header> <!-- header -->
+        <section id="mainVisual">
+            <div class="simg"><img src="img/mainvisual.jpg"></div>
+            <a href="#" class="btnN">이전</a>
+            <a href="#" class="btnP">다음</a>
+            <div class="main_tit">
+                <h2>YOUNG MAN <span>PIZZA</span></h2>
+            </div> <!-- main_tit -->
+            <div class="main_txt">
+                <p>청년피자는 젊고 트렌디한 느낌으로차별성을 둬 론칭 4년 만에 전국
+                    330개 매장을 오픈한 BSB FOOD의 첫 번째 외식산업 브랜드 입니다.</p>
+            </div> <!-- main_txt -->
+            <nav class="gnb_tablet">
+                <ul class="menu1">
+                    <li>
+                        <a href="#" class="m">BRAND<span></span></a>
+                        <ul class="sub">
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">BSB GROUP</a></li>
+                            <li><a href="#">오시는길</a></li>
+                        </ul> <!-- sub -->
+                    </li>
+                </ul> <!-- menu1 -->
+                <ul class="menu1">
+                    <li>
+                        <a href="#" class="m">MENU<span></span></a>
+                        <ul class="sub">
+                            <li><a href="#">피자메뉴</a></li>
+                            <li><a href="#">사이드메뉴</a></li>
+                            <li><a href="#">세트메뉴</a></li>
+                            <li><a href="#">토핑추가</a></li>
+                            <li><a href="#">음료&기타</a></li>
+                        </ul> <!-- sub -->
+                    </li>
+                </ul> <!-- menu1 -->
+                <ul class="menu1">
+                    <li>
+                        <a href="#" class="m">STORE<span></span></a>
+                        <ul class="sub">
+                            <li><a href="#">창업문의</a></li>
+                            <li><a href="#">창업비용</a></li>
+                            <li><a href="#">교육시스템</a></li>
+                        </ul> <!-- sub -->
+                    </li>
+                </ul> <!-- menu1 -->
+                <ul class="menu1">
+                    <li>
+                        <a href="#" class="m">EVENT<span></span></a>
+                        <ul class="sub">
+                            <li><a href="#">쿠폰 할인 이벤트</a></li>
+                            <li><a href="#">태연 포카 이벤트</a></li>
+                            <li><a href="#">배달의 민족 이벤트</a></li>
+                            <li><a href="#">이벤트 미리보기</a></li>
+                        </ul> <!-- sub -->
+                    </li>
+                </ul> <!-- menu1 -->
+            </nav> <!-- gnb_tablet -->
+        </section> <!-- mainVisual -->
+        <section id="container">
+            <div class="containerin">
+                <div class="cont1">
+                    <h2><span>NEW</span></h2>
+                    <ul class="clear">
+                        <li><a href="#">
+                                <div class="cont1_box">
+                                    <div class="txt">
+                                        <h3>청년피자 콘소메 오븐베이크 치킨</h3>
+                                        <p>기름기 쫙 뺀 오븐베이크 치킨과 <br>
+                                            달콤짭잘 콘소메의 환상궁합!</p>
+                                        <p class="icon"><img src="img/cont1_icon.png">12,900</p>
+                                    </div> <!-- txt -->
+                                </div>
+                            </a></li>
+                        <li><a href="#">
+                                <div class="cont1_img"><img src="img/콘소메 치킨.jpg">
+
+                                </div>
+                            </a></li>
+                        <li><a href="#">
+                                <div class="cont1_img"><img src="img/맥앤치즈스틱.jpg">
+
+                                </div>
+                            </a></li>
+                        <li><a href="#">
+                                <div class="cont1_box">
+                                    <div class="txt">
+                                        <h3>청년피자 맥앤치즈스틱</h3>
+                                        <p>꾸덕꾸덕 맥앤치즈와 청피스틱의 <br>
+                                            환상적인 콜라보</p>
+                                        <p class="icon"><img src="img/cont1_icon.png">8,900</p>
+                                    </div> <!-- txt -->
+                                </div>
+                            </a></li>
+                    </ul>
+                </div> <!-- cont1 -->
+                <div class="cont1_tablet">
+                    <h2>NEW</h2>
+                    <ul class="clear">
+                        <li><a href="#">
+                                <div class="t_img"><img src="img/콘소메 치킨.jpg"></div>
+                                <div class="txt">
+                                    <h3>콘소메 오븐베이크 치킨</h3>
+                                    <p>기름기 쫙 뺀 오븐베이크 치킨과 <br>
+                                        달콤짭잘 콘소메의 환상궁합!</p>
+                                </div> <!-- txt -->
+                            </a></li>
+                        <li><a href="#">
+                                <div class="t_img"><img src="img/맥앤치즈스틱.jpg"></div>
+                                <div class="txt">
+                                    <h3>맥앤치즈스틱</h3>
+                                    <p>꾸덕꾸덕 맥앤치즈와 청피스틱의 <br>
+                                        환상적인 콜라보!</p>
+                                </div> <!-- txt -->
+                            </a></li>
+                    </ul>
+                </div><!--  cont1_tablet -->
+                <div class="cont2">
+                    <h2><span>MENU</span></h2>
+                    <div class="row clear">
+                        <div class="PIZZA">
+                            <h3>PIZZA</h3>
+                            <div class="basic"><img src="img/토핑농장.jpg"></div>
+                            <div class="bg">까만배경</div>
+                            <div class="txt">
+                                <p>다른 피자집들과는 다르다! <br>
+                                    피자는 오직 청년피자</p>
+                                <a href="#">PIZZA</a>
+                            </div> <!-- txt -->
+                        </div><!--  PIZZA -->
+                        <div class="SIDE">
+                            <h3>SIDE</h2>
+                                <div class="basic"><img src="img/파스타.jpg"></div>
+                                <div class="bg">까만배경</div>
+                                <div class="txt">
+                                    <p>피자도 잘하는데 <br>
+                                        사이드까지 최고!</p>
+                                    <a href="#">SIDE</a>
+                                </div> <!-- txt -->
+                        </div><!-- SIDE -->
+                        <div class="SET">
+                            <h3>SET</h2>
+                                <div class="basic"><img src="img/청피스틱 세트.jpg"></div>
+                                <div class="bg">까만배경</div>
+                                <div class="txt">
+                                    <p>가성비 갑!<br>
+                                        이 가격에 이 퀄리티!</p>
+                                    <a href="#">SET</a>
+                                </div> <!-- txt -->
+                        </div><!-- SET -->
+                        <div class="DRINK">
+                            <h3>DRINK</h2>
+                                <div class="basic"><img src="img/콜라.jpg"></div>
+                                <div class="bg">까만배경</div>
+                                <div class="txt">
+                                    <p>다양한 토핑들을<br>
+                                        취향껏 골라보세요!</p>
+                                    <a href="#">DRINK</a>
+                                </div> <!-- txt -->
+                        </div><!-- SIDE -->
+                    </div>
+                </div> <!-- cont2 -->
+                <div class="cont3">
+                    <div class="cont3_img">
+                        <div class="bg">까만배경</div>
+                        <div class="cont3_icon"><img src="img/cont3_icon.png"></div>
+                        <p class="cont3_txt"><span>배달</span>도 되고 <br> <span>선물</span>도 됩니다.</p>
+                    </div>
+                </div><!--  cont3 -->
+                <div class="cont4">
+                    <h2><span>EVENT</span></h2>
+                    <ul class="clear">
+                        <li><a href="#">
+                                <div class="cont4_img"><img src="img/cont4_img1.jpg"></div>
+                                <div class="cover_bg"></div>
+                                <p class="txt1">EVENT1</p>
+                                <div class="cont4_box">
+                                    <p class="txt">매주 <span>화/목4,000원</span><br>할인이벤트!</p>
+
+                                </div>
+                            </a></li>
+                        <li><a href="#">
+                                <div class="cont4_img"><img src="img/cont3_img2.jpg"></div>
+                                <div class="cover_bg"></div>
+                                <p class="txt1">EVENT2</p>
+                                <div class="cont4_box">
+                                    <p class="txt">배달의민족<span>3,000원</span><br> 쿠폰이벤트!</p>
+
+                                </div>
+                            </a></li>
+                        <li><a href="#">
+                                <div class="cont4_img"><img src="img/event.jpg"></div>
+                                <div class="cover_bg"></div>
+                                <p class="txt1">EVENT3</p>
+                                <div class="cont4_box">
+                                    <p class="txt"><span>태연포카</span><br>이벤트!</p>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div> <!-- cont4 -->
+                <div class="cont5">
+                    <div class="cont5_img">
+                        <div class="bg"></div>
+                        <form id="searchBox" name="searchBox">
+                            <input type="text" placeholder="매장명 또는 지역명" id="keyword" name="keyword">
+                            <a href="#" class="submit">확인</a>
+                        </form> <!-- searchBox -->
+                    </div>
+                </div> <!-- cont5 -->
+                <div class="story">
+                    <div class="storyin">
+                        <figure class="v">
+                            <iframe width="450" height="400" src="https://www.youtube.com/embed/Kp626HgzkLc"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <iframe width="450" height="400" src="https://www.youtube.com/embed/-HMk7-pyEZE"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <iframe width="450" height="400" src="https://www.youtube.com/embed/p-mFHfWw0ds"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <iframe width="450" height="400" src="https://www.youtube.com/embed/5D7B_RFg9Mc"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </figure> <!-- v -->
+                    </div>
+                </div>
+            </div> <!-- containerin -->
+        </section> <!-- container -->
+        <footer id="footer">
+            <div class="footerin">
+                <div class="fTop">
+                    <div class="finner clear">
+                        <ul class="fmenu">
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">창업문의</a></li>
+                            <li><a href="#">사이트맵</a></li>
+                        </ul>
+                    </div><!--  finner -->
+                </div> <!-- ftop -->
+                <div class="fbottom">
+                    <div class="finner">
+                        <div class="finfo">
+                            <p class="fbottom_t">
+                                <strong>가맹문의 : 1588 - 9109</strong>
+                            </p>
+                            <p class="address">
+                                대표 : 정관영 ㅣ 사업자등록번호 : 518 - 88 - 01764 <br>
+                                주소 : 경기도 화성시 동탄지성로 416-3 (반월동) <br>
+                                B2B 제품관련문의 : 070 - 4450 - 2737 <br>
+                                마케팅 광고문의 이메일 : b2bfoodmarketing@naver.com
+                            </p> <!-- address -->
+                        </div> <!-- finfo -->
+                        <ul class="fsns clear">
+                            <li><a href="#"><img src="img/kakao.png"></a></li>
+                            <li><a href="#"><img src="img/instagram.png"></a></li>
+                            <li><a href="#"><img src="img/facebook (1).png"></a></li>
+                            <li><a href="#"><img src="img/youtube.png"></a></li>
+                        </ul> <!-- fsns -->
+                    </div> <!-- finner -->
+                </div> <!-- fbottom -->
+            </div> <!-- footerin -->
+        </footer> <!-- footer -->
+        <section id="banner">
+            <div class="bannerin">
+                <div class="b1">
+                    청년피자에서 만나보세요.
+                </div> <!-- b1 -->
+                <div class="b2">
+                    <p class="t1">07.20 ~ 07.23</p>
+                    <p class="t2">단 3일간 전품목</p>
+                </div> <!-- b2 -->
+                <div class="b3">
+                    6,000원 할인!
+                </div> <!-- b3 -->
+                <div class="b4">
+                    <img src="img/bannerimg_03.png">
+                </div> <!-- b4 -->
+            </div> <!-- bannerin -->
+        </section> <!-- banner -->
+        <div class="mobile">
+            <div class="gnbM">
+                <div class="close"><a href="#">close</a></div>
+                <div class="depth1">
+                    <h3><a href="#">BRAND</a></h3>
+                    <ul class="depth2">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">BSB GROUP</a></li>
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">인재채용</a></li>
+                        <li><a href="#">오시는길</a></li>
+                    </ul> <!-- dpeth2 -->
+                </div> <!-- depth1 -->
+                <div class="depth1">
+                    <h3><a href="#">MENU</a></h3>
+                    <ul class="depth2">
+                        <li><a href="#">오리지널피자</a></li>
+                        <li><a href="#">프리미엄 피자</a></li>
+                        <li><a href="#">세트메뉴</a></li>
+                        <li><a href="#">사이드메뉴</a></li>
+                        <li><a href="#">토핑추가</a></li>
+                        <li><a href="#">음료&기타</a></li>
+                    </ul> <!-- dpeth2 -->
+                </div> <!-- depth1 -->
+                <div class="depth1">
+                    <h3><a href="#">STORE</a></h3>
+                    <ul class="depth2">
+                        <li><a href="#">창업문의</a></li>
+                        <li><a href="#">창업비용</a></li>
+                        <li><a href="#">개설절차</a></li>
+                        <li><a href="#">교육시스템</a></li>
+                    </ul> <!-- dpeth2 -->
+                </div> <!-- depth1 -->
+                <div class="depth1">
+                    <h3><a href="#">EVENT</a></h3>
+                    <ul class="depth2">
+                        <li><a href="#">할인이벤트</a></li>
+                        <li><a href="#">태연 포카 이벤트</a></li>
+                        <li><a href="#">쿠폰 이벤트</a></li>
+                        <li><a href="#">이벤트 미리보기</a></li>
+                    </ul> <!-- dpeth2 -->
+                </div> <!-- depth1 -->
+                <div class="depth1">
+                    <h3><a href="#">more</a></h3>
+                    <ul class="depth2">
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">QnA</a></li>
+                        <li><a href="#">광고갤러리</a></li>
+                    </ul> <!-- dpeth2 -->
+                </div> <!-- depth1 -->
+            </div><!--  gnbM -->
+        </div> <!-- mobile -->
+    </div> <!-- wrap -->
+
+    <script>
+        $('.btn_H').on('click', function () {
+            $('.mobile').stop().animate({
+                right: 0
+            }, 1000, 'easeInOutQuint');
+        }); $('.close').on('click', function () {
+            $('.mobile').stop().animate({
+                right: '-100%'
+            }, 1000, 'easeInOutQuint');
+        });
+
+        $('.story .v').slick({
+            slidesToShow: 1, //화면에 보여질 이미지 개수
+            slidesToScroll: 1, //스크롤시 이동할 이미지 개수
+            arrows: false, //화살표 사용여부
+            dots: true, //페이지 사용 여부
+            speed: 500, //다음 페이지로 넘어가는 시간 (0.5초)
+            autoplay: true, //자동재생 여부
+            autoplaySpeed: 1000, //자동재생시 이미지가 유지되는 시간
+            pauseOnHover: true, //마우스 hover시 자동재생 멈춤 여부
+            infinite: true, //무한반복 여부
+            vertical: false, //세로 슬라이드
+            responsive: [
+                {
+                    breakpoint: 960, setting: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 640, setting: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                }
+            ]
+        });
+
+    </script>
+</body>
+
+</html>

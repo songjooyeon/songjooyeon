@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>너드커넥션</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- Stats.js -->
+    <script src="https://dl.dropbox.com/s/m1qor6z15o64wkc/stats.min.js?dl=0"></script>
+    <!-- dat.gui.js -->
+    <script src="https://dl.dropbox.com/s/sk7fbhx9burholi/dat.gui.min.js?dl=0"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://kit.fontawesome.com/b7162c9d50.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="site">
+            <!-- <div class="circle circle--1"></div>
+            <div class="circle circle--2"></div> -->
+        </div>
+        <header id="header">
+            <div class="headerin">
+                <nav class="pc">
+                    <ul class="gnb">
+                        <li>
+                            <a href="#">ARTIST</a>
+                            <span></span>
+                            <ul class="sub">
+                                <li><a href="#">GALLERY</a></li>
+                                <li><a href="#">VIDEO</a></li>
+                                <li><a href="#">PROFILE</a></li>
+                                <li><a href="#">NEWS</a></li>
+                            </ul> <!-- sub -->
+                        </li>
+                        <li>
+                            <a href="#">PRODUCTION </a>
+                            <span></span>
+                            <ul class="sub">
+                                <li><a href="#">ALBUM</a></li>
+                                <li><a href="#">HISTORY</a></li>
+                                <li><a href="#">MUSIC VIDEO</a></li>
+                            </ul> <!-- sub -->
+                        </li>
+                        <li>
+                            <a href="#">SCHEDULE</a>
+                            <span></span>
+                            <ul class="sub">
+                                <li><a href="#">YOUTUBE</a></li>
+                                <li><a href="#">V_LIVE</a></li>
+                                <li><a href="#">CHANNEL</a></li>
+                                <li><a href="#">CONCERT</a></li>
+                                <li><a href="#">FAN EVENT</a></li>
+                            </ul> <!-- sub -->
+                        </li>
+                        <li>
+                            <a href="/portfolio_view/nerdconnection/sub.html" target='_blank'>GOODS</a>
+                            <span></span>
+                            <ul class="sub">
+                                <li><a href="#">DRESS</a></li>
+                                <li><a href="#">BAG</a></li>
+                                <li><a href="#">CASE</a></li>
+                                <li><a href="#">ALBUM</a></li>
+                            </ul> <!-- sub -->
+                        </li>
+                    </ul> <!-- gnb -->
+                </nav> <!-- pc -->
+            </div><!--  headerin -->
+        </header> <!-- header -->
+        <section id="mainVisual">
+            <div class="mainVisualin">
+                <div class="moblie_main">
+                    <div class="mimg"></div>
+                    <ul class="util">
+                        <li><a href="#">LOGIN</a></li>
+                        <li><a href="#">MY</a></li>
+                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </ul> <!-- util -->
+                    <h1 class="logo"><a href="#"><img src="img/logo_03.png"></a></h1>
+                </div> <!-- moblie_main -->
+            </div> <!-- mainVisualin -->
+        </section> <!-- mainVisual -->
+        <nav class="mobile">
+            <i class="fa-solid fa-x"></i>
+            <ul class="gnb_m">
+                <li>
+                    <a href="#">ARTIST</a>
+                    <span></span>
+                    <ul class="sub">
+                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#">VIDEO</a></li>
+                        <li><a href="#">PROFILE</a></li>
+                        <li><a href="#">NEWS</a></li>
+                    </ul> <!-- sub -->
+                </li>
+                <li>
+                    <a href="#">PRODUCTION </a>
+                    <span></span>
+                    <ul class="sub">
+                        <li><a href="#">ALBUM</a></li>
+                        <li><a href="#">HISTORY</a></li>
+                        <li><a href="#">MUSIC VIDEO</a></li>
+                    </ul> <!-- sub -->
+                </li>
+                <li>
+                    <a href="#">SCHEDULE</a>
+                    <span></span>
+                    <ul class="sub">
+                        <li><a href="#">YOUTUBE</a></li>
+                        <li><a href="#">V_LIVE</a></li>
+                        <li><a href="#">CHANNEL</a></li>
+                        <li><a href="#">CONCERT</a></li>
+                        <li><a href="#">FAN EVENT</a></li>
+                    </ul> <!-- sub -->
+                </li>
+                <li>
+                    <a href="#">GOODS</a>
+                    <span></span>
+                    <ul class="sub">
+                        <li><a href="#">DRESS</a></li>
+                        <li><a href="#">BAG</a></li>
+                        <li><a href="#">CASE</a></li>
+                        <li><a href="#">ALBUM</a></li>
+                    </ul> <!-- sub -->
+                </li>
+            </ul> <!-- gnb_m -->
+        </nav> <!-- mobile -->
+        <section id="cont1_m">
+            <div class="cont1_min">
+                <div class="mimg"><img src="img/cont1_m_03.png"></div>
+                <h2>WHO IS <br> NERDCONNECTION?</h2>
+                <dl>
+                    <dt>너드커넥션을 이야기하다</dt>
+                    <dd>너드커넥션은 2012년 연세대학교의 밴드동아리의 보컬
+                        '서영주', 기타리스트 '최승원'이 같은 팀으로 만나 2013년
+                        베이시스트 '박재현', 2017년 드러머 '신연태'를 멤버로
+                        영입하면서 정식으로 활동하게 된다.
+                        2018년 8월 첫 싱글을 발표한 후, 약 1년후의 2029년 12월
+                        첫 EP를 공개함과 동시에 쇼케이스를 선보이며
+                        본격적인 활동에 나섰다.
+                    </dd>
+                </dl>
+            </div> <!-- cont1_min -->
+        </section> <!-- cont1_m -->
+        <section id="cont1">
+            <div class="cont1_top">
+                <div class="topin">
+                    <p class="left">overview</p>
+                    <p class="txt">대한민국의 <br>
+                        4인조 <br>
+                        <strong>인디밴드</strong>
+                    </p>
+                    <p class="right">너드커넥션은 2018년 8월 14일에 데뷔한 4인조 인디밴드 입니다.
+                        1990년대에서 2000년대 초반 영국의 밴드음악에서 영감을 얻어 브리티쉬 팝과 얼터너티브
+                        록 장르를 기반으로 하였습니다. 너드커넥션은 밴드의 기반을 다지는 1년 남짓한 기간을
+                        가진 후 EMEPGENZA 세계 밴드 대회에서 우승하여 독일 Taubertal Festive 2018 출전
+                        자격을 얻었습니다.
+                    </p>
+                </div> <!-- topin -->
+            </div> <!-- cont1_top -->
+            <div class="cont1_bottom">
+                <div class="cont1in">
+                    <h2>WHO IS NERDCONNECTION?</h2>
+                    <h3>너드커넥션을 이야기하다.</h3>
+                    <p>너드커넥션은 2012년 연세대학교의 밴드 동아리의 보컬 '서영주', 기타리스트 '최승원'이
+                        같은 기수로 만나 같은 팀에 배정받게 된다. 취미활동으로 음악을 이어나가던 중 2013년
+                        베이시스트 '박재현'이 동아리에 신입 기수로 들어오게 되면서 한 팀으로 활동을 같이 하기 시작한다.
+                        이후 2017년 서영주,최승원,박재현이 본격적으로 음악을 해보자고 뜻을 모았고, 이에 예전에 박재현과
+                        프로젝트 팀에서 합을 맞춘 적이 있는 드러머 '신연태'를 정식 멤버로 영입하여 현재 체제를 갖추게 된다.
+                        2018년 8월 첫 싱글을 발표한 후 , 약 1년 후인 2019년 12월 첫 EP를 공개함과 동시에
+                        쇼케이스를 선보이며 본격적인 활동에 나섰다.
+                    </p>
+                </div>
+            </div> <!-- cont1in -->
+        </section> <!-- cont1 -->
+        <section id="cont2">
+            <div class="cont2in">
+                <h2>MEMBERS</h2>
+                <div class="slider">
+                    <div class="box"><img src="img/member1.jpg"></div>
+                    <div class="box"><img src="img/member2.jpg"></div>
+                    <div class="box"><img src="img/member3.jpg"></div>
+                    <div class="box"><img src="img/member4.jpg"></div>
+                </div>
+                <div class="cover">
+                    <div class="cls"></div>
+                    <div class="on">
+                        <img src="img/member1.jpg">
+                        <h4>서영주</h4>
+                        <h4>Seo young Joo</h4>
+                        <p>Vocal <br>
+                            1993.03.17 <br>
+                            연세대학교 졸업</p>
+                        <p>너드커넥션의 보컬 및 서브기타 포지션을 맡고있는 서영주 <br>
+                            깊고 풍부한 성량과 맑고 시원한 음색을 동시에 보유하고 있다.
+                            넓은 음역대, 진성과 가성을 자유자재로 넘나드는 스킬, 뛰어난
+                            가사 전달력 등 실력있는 보컬이 가져야 할 역량을 두루 갖추고 있다
+                            너의 목소리가 보여 '독일에서 열린 세계 밴드 대회'에서 한국 대표
+                            보컬로 출연 하였다.</p>
+                    </div> <!-- on -->
+                </div> <!-- cover -->
+            </div> <!-- cont2in -->
+        </section> <!-- cont2 -->
+        <div class="wrapper">
+            <h2 class="member">MEMBER</h2>
+            <div class="cols">
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(img/member1.jpg)">
+                            <div class="inner">
+                                <p>Seo Young Joo</p>
+                                <span>vocal</span>
+                            </div> <!-- inner -->
+                        </div> <!-- container -->
+                        <div class="back">
+                            <div class="inner">
+                                <p>1993. 03. 17</p>
+                                <p> 너드커넥션의 보컬 및 서브기타 포지션
+                                    깊고 풍부한 성량과 맑고 시원한 음색을 동시에 보유하고 있다.
+                                    넓은 음역대, 진성과 가성을 자유자재로 넘나드는 스킬, 뛰어난
+                                    가사 전달력 등 실력있는 보컬이 가져야 한다는 역량을 두루 갖추고 있다.
+                                </p>
+                            </div> <!-- inner -->
+                        </div> <!-- back -->
+                    </div> <!-- col -->
+                </div> <!-- cols -->
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(img/member2.jpg)">
+                            <div class="inner">
+                                <p>Choi Seung won</p>
+                                <span>Guitar</span>
+                            </div>
+                        </div> <!-- col -->
+                        <div class="back">
+                            <div class="inner">
+                                <p>1992. 08. 19</p>
+                                <p>너드커넥션의 리더이자 메인기타 포지션
+                                    기타를 배우기 시작한 것은 중학교 3학년 때 기타를 치는 친구의
+                                    모습이 재미있게 보여 시작하게 되었다고 한다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(img/member3.jpg)">
+                            <div class="inner">
+                                <p>Park Jae hyun</p>
+                                <span>Base</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>1993. 03. 26</p>
+                                <p>너드커넥션의 베이스기타 포지션
+                                    작곡을 할 때 책에서 다양한 영감을 받으며, 멤버들과 작업을 할 때에도 매우 많은
+                                    래퍼런스를 참고하라며 갖고 온다고 한다. 영어영문학과를 졸업해 영어실력이 유창하다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(img/member4.jpg)">
+                            <div class="inner">
+                                <p>Shin Yeontae</p>
+                                <span>Drum</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>1991. 11. 05</p>
+                                <p>너드커넥션의 드럼 포지션
+                                    처음에는 태권도 사범으로 투잡을 뛰다가 밴드를 위해서 그만두었다.
+                                    팀의 제일 맏형으로써 밴드의 아버지 같은 존재다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- wrapper -->
+            <section id="cont3">
+                <div class="cont3in">
+                    <h2>HISTORY</h2>
+                    <div class="number">
+                        <select>
+                            <option>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                        </select>
+                    </div> <!-- number -->
+                    <div class="slider1">
+                        <div class="box">
+                            <img src="img/cont3_img.jpg">
+                            <div class="bg">bg</div>
+                            <div class="txt">
+                                <p>인천 펜타포트 락 페스티벌</p>
+                                <p> 2021. 10. 09</p>
+                            </div>
+                        </div> <!-- box1 -->
+                        <div class="box">
+                            <img src="img/history.jpg">
+                            <div class="bg"></div>
+                            <div class="txt">
+                                <p>광주 MBC 난장 출연</p>
+                                <p> 2021. 10 .24</p>
+                            </div>
+                        </div> <!-- box -->
+                    </div> <!-- slider1 -->
+                </div> <!-- cont3in -->
+            </section> <!-- cont3 -->
+            <section id="cont4">
+                <div class="cont4in">
+                    <h2>ALBUM</h2>
+                    <div class="slider2">
+                        <div class="box">
+                            <img src="img/album1.jpg">
+                            <h3>Hymn of the Birds</h3>
+                            <p class="n">2018. 08. 14</p>
+                            <p class="first">0:00</p>
+                            <p class="last">5:04</p>
+                            <p class="txt"><strong>모든 날아오르려는 존재들에 대한 찬가</strong><br>
+                                유형 : 싱글 <br>
+                                장르 : 록 / 메탈 / 인디음악 <br>
+                                기획사 : Necle</p>
+                            <a href="#" class="btn">more+</a>
+                            <p class="pc">가사에 등장하는 '너'라는 존재는 보다
+                                나은 삶을 위해 더 높이 날아오르려고 애씁니다. 멈추지도 않고
+                                쉬지도 않고 열심히 날아오르는 동안 다치기도 하고 추락하기도 합니다.
+                                그 때마다 '새'라는 존재들은 '너'라는 존재에게 다시 한 번 날아보자고 얘기합니다.
+                            </p>
+                        </div>
+                        <div class="box">
+                            <img src="img/album2.jpg">
+                            <h3>대나무숲</h3>
+                            <p class="n">2019 .04. 08</p>
+                            <p class="first">0:00</p>
+                            <p class="last">4:16</p>
+                            <p class="txt"><strong>어지러운 세상, 따뜻한 음악</strong><br>
+                                유형 : 싱글 <br>
+                                장르 : 포크 / 블루스 <br>
+                                기획사 : Es Records</p>
+                            <a href="#" class="btn">more+</a>
+                            <p class="pc"> 어지러운 세상, 따뜻한 음악
+                                'Nerd Connection'의 두 번쨰 싱글 [대나무숲]으로 여러분을 초대합니다.
+                            </p>
+                        </div>
+                        <div class="box">
+                            <img src="img/album3.jpg">
+                            <h3>TOO FAST</h3>
+                            <p class="n">2019 12. 06</p>
+                            <p class="first">0:00</p>
+                            <p class="last">5:04</p>
+                            <p class="txt"><strong>그들만의 색체</strong><br>
+                                유형 : EP <br>
+                                장르 : 록 / 메탈 / 인디음악 <br>
+                                기획사 : Es Records</p>
+                            <a href="#" class="btn">more+</a>
+                            <p class="pc"> 때론 어둡고 불쾌하게 다가올 수도 있지만, 그럼에도항상 아름다운
+                                우리네 삶의 단면들을 노래해 본 작품이다. 주변에서 보고 느낀 사람들, 사건들 및 현상들에
+                                바탕을 둔 솔직 담백한 가사는 전작들에 이어 이번 작품에서도 빛을 발하고 있으며.
+                                기존에 가지지 않았던 사이키델릭한 요소를 겸비하여 표현의 지평을 넓혔다.
+                            </p>
+                        </div>
+                        <div class="box">
+                            <img src="img/album4.jpg">
+                            <h3>좋은 밤 좋은 꿈</h3>
+                            <p class="n">2020. 03. 23</p>
+                            <p class="first">0:00</p>
+                            <p class="last">4:27</p>
+                            <p class="txt"><strong>어떤 두 사람에 대한 이야기</strong><br>
+                                유형 : 싱글 <br>
+                                장르 : 록 / 메탈 / 인디음악 <br>
+                                기획사 : Es Records</p>
+                            <a href="#" class="btn">more+</a>
+                            <p class="pc">음악이 전달하는 감정의 깊이는 더욱 깊어졌고 전작들에서는 직접적으로
+                                다룬 적 없던 '사랑'이라는 주제를 통해 새로운 면모를 보여주고 있다.
+                            </p>
+                        </div>
+                        <div class="box">
+                            <img src="img/album5.jpg">
+                            <h3>Back in Time</h3>
+                            <p class="n">2020. 10. 22</p>
+                            <p class="first">0:00</p>
+                            <p class="last">5:00</p>
+                            <p class="txt"><strong>허망한 가을에 나온 신작</strong><br>
+                                유형 : 싱글 <br>
+                                장르 : 록 / 메탈 / 인디음악 <br>
+                                기획사 : 너드커넥션</p>
+                            <a href="#" class="btn">more+</a>
+                            <p class="pc">1990년대 전세계 수많은 이들의 가슴을 데웠던 바로 그 사운드에 충실한 것은 물론이고,
+                                그 때 그 시절의 무드와 우리말 가사가 얼마나 아름답게 어우러질 수 있는지 여실히 보여주고 있는 곡
+                            </p>
+                        </div>
+                        <div class="box">
+                            <img src="img/album6.jpg">
+                            <h3>진눈깨비</h3>
+                            <p class="n">2021. 01. 26</p>
+                            <p class="first">0:00</p>
+                            <p class="last">5:02</p>
+                            <p class="txt"><strong>비와 눈이 섞여서 내리는 기상현상</strong><br>
+                                유형 : 싱글 <br>
+                                장르 : 록 / 메탈 / 인디음악 <br>
+                                기획사 : 너드커넥션</p>
+                            <a href="#" class="btn">more+</a>
+                            <p class="pc">멈추지않고 흐르는 우리들의 시간도 이와 크게 다르지 않다는 생각을 했습니다
+                                변함없이 영원할 줄 알았던 어떤 소중한 나날들은 생각보다 더 빨리 끝나버리고 결국 녹아서 눈물이 되곤 합니다.
+                            </p>
+                        </div>
+                        <div class="box">
+                            <img src="img/album7.jpg">
+                            <h3>걸어갈래요</h3>
+                            <p class="n">2021. 03. 24</p>
+                            <p class="first">0:00</p>
+                            <p class="last">5:02</p>
+                            <p class="txt"><strong>비와 눈이 섞여서 내리는 기상현상</strong><br>
+                                유형 : 싱글 <br>
+                                장르 : 록 / 메탈 / 인디음악 <br>
+                                기획사 : 너드커넥션</p>
+                            <a href="#" class="btn">more+</a>
+                            <p class="pc">이 노래는 그런 생각을 해 본 적이 있는 사람들을 위한 곡입니다. 나 빼고 모두가 그 길은 막혀
+                                있을 거라고, 계속 가면 좌절뿐일 거라고 할 때면 부푼 마음을 안고 떼었던 첫 걸음을, 그리고 그 걸음에 담겨 있었던
+                                자그마한 꿈을 기억하기로 마음먹었습니다.
+                            </p>
+                        </div>
+                        <div class="box">
+                            <img src="img/album8.jpg">
+                            <h3>두려울뿐야</h3>
+                            <p class="n">2021. 06. 07</p>
+                            <p class="first">0:00</p>
+                            <p class="last">3:42</p>
+                            <p class="txt"><strong>호의,애정,기다림</strong><br>
+                                유형 : 싱글 <br>
+                                장르 : 록 / 메탈 / 인디음악 <br>
+                                기획사 : 너드커넥션</p>
+                            <a href="#" class="btn">more+</a>
+                            <p class="pc">사람과 사람이 관계를 가질 때, 참으로 많은 것들이 각자의 마음에 자리한다
+                                호의, 애정, 기다림, 그리움, 고마움, 서운함, 사무침. 그 외에도 셀 수 없을 만큼 많이.
+                            </p>
+                        </div>
+                        <div class="box">
+                            <img src="img/album9.jpg">
+                            <h3>New Century </h3>
+                            <p class="n">2021. 10. 27</p>
+                            <p class="first">0:00</p>
+                            <p class="last">5:02</p>
+                            <p class="txt"><strong>명화극장</strong><br>
+                                유형 : 싱글 <br>
+                                장르 : 록 / 메탈 / 인디음악 <br>
+                                기획사 : 유어썸머</p>
+                            <a href="#" class="btn">more+</a>
+                            <p class="pc">옛날 옛적 언제가,, 이름 모를 어떤 거리에 한 극장이 있었다
+                                명작들만 모여 상영한다는, 이름하여 '명화극장' 극장의 주인은 굉장히 깐깐하여
+                                누구나 인정해 마지않는 명작들만 고르고 골라 틀었다.
+                            </p>
+                        </div>
+                    </div><!--  slider2 -->
+                </div> <!-- cont4in -->
+            </section> <!-- cont4 -->
+            <footer id="footer">
+                <div class="footerin">
+                    <div class="sns">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram-square"></i>
+                        <i class="fa-brands fa-blogger"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                    </div> <!-- sns -->
+                    <p>COPYRIGHT ⓒ 2021 YOUR SUMMER MUSIC | ALL RIGHT RESERVED</p>
+                </div>
+            </footer> <!-- footer -->
+        </div> <!-- wrap -->
+
+        <script>
+            $('.fa-bars').on('click', function () {
+                $('.mobile').stop().animate({
+                    left: 0
+                }, 1000, 'easeInOutQuint');
+            }); $('.fa-x').on('click', function () {
+                $('.mobile').stop().animate({
+                    left: '-100%'
+                }, 1000, 'easeInOutQuint');
+            });
+
+            $('.slider').slick({
+                slidesToShow: 1, //화면에 보여질 이미지 개수
+                slidesToScroll: 1, //스크롤시 이동할 이미지 개수
+                arrows: false, //화살표 사용여부
+                speed: 1000, //다음 페이지로 넘어가는 시간 (0.5초)
+                autoplay: true, //자동재생 여부
+                autoplaySpeed: 1000, //자동재생시 이미지가 유지되는 시간
+                pauseOnHover: true, //마우스 hover시 자동재생 멈춤 여부
+                infinite: true, //무한반복 여부
+                vertical: false, //세로 슬라이드
+                responsive: [
+                    {
+                        breakpoint: 960, setting: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 640, setting: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+
+            $('.slider .box').on('click', function () {
+                $('.cover').fadeIn();
+                let _img = $(this).html();
+                $('.cover .on').html();
+
+            });
+
+            $('.cover .cls').on('click', function () {
+                $(this).parent().fadeOut();
+            })
+
+            $('.slider2').slick({
+                slidesToShow: 1, //화면에 보여질 이미지 개수
+                slidesToScroll: 1, //스크롤시 이동할 이미지 개수
+                arrows: false, //화살표 사용여부
+                speed: 700, //다음 페이지로 넘어가는 시간 (0.5초)
+                autoplay: true, //자동재생 여부
+                autoplaySpeed: 1000, //자동재생시 이미지가 유지되는 시간
+                pauseOnHover: true, //마우스 hover시 자동재생 멈춤 여부
+                infinite: true, //무한반복 여부
+                vertical: false, //세로 슬라이드
+                responsive: [
+                    {
+                        breakpoint: 960, setting: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 640, setting: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    }
+                ]
+            });
+            const mainBall = document.querySelector(".circle--1");
+            const followBall = document.querySelector(".circle--2");
+
+            const lerp = (from, to, ease) => (1 - ease) * from + ease * to;
+
+            let currentX = window.innerWidth / 2;
+            let currentY = window.innerHeight / 2;
+
+            let mainCircle = {
+                lastX: currentX,
+                lastY: currentY,
+                size: mainBall.getBoundingClientRect()
+            };
+
+
+            let followCircle = {
+                lastX: currentX,
+                lastY: currentY,
+                size: followBall.getBoundingClientRect()
+            };
+
+
+            window.addEventListener("mousemove", e => {
+                currentX = e.pageX;
+                currentY = e.pageY;
+            });
+
+            const circleMovement = (circle, ease, direction) => {
+                if (direction === 'x') {
+                    return lerp(circle.lastX, currentX, ease);
+                }
+                return lerp(circle.lastY, currentY, ease);
+            };
+
+
+            const render = () => {
+                mainCircle.lastX = circleMovement(mainCircle, 0.2, 'x');
+                mainCircle.lastY = circleMovement(mainCircle, 0.2, 'y');
+                mainBall.style.transform = `translate(${mainCircle.lastX - mainCircle.size.width / 2}px, ${mainCircle.lastY - mainCircle.size.height / 2}px)`;
+
+
+                followCircle.lastX = circleMovement(followCircle, 0.1, 'x');
+                followCircle.lastY = circleMovement(followCircle, 0.1, 'y');
+                followBall.style.transform = `translate(${followCircle.lastX - followCircle.size.width / 2}px, ${followCircle.lastY - followCircle.size.height / 2}px)`;
+                requestAnimationFrame(render);
+            };
+
+            //setInterval(() => render(), 1500)
+            render();
+        </script>
+</body>
+
+</html>

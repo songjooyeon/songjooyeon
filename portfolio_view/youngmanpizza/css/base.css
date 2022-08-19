@@ -1,0 +1,30 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+body {
+        font-family: 'GmarketSansLight';
+        color: #121212;
+        font-size: 12px;
+        line-height: 18px;
+}
+
+ul {
+        list-style: none;
+}
+
+a {
+        text-decoration: none;
+        color: inherit;
+}
+
+img {
+        vertical-align: top;
+}
+
+.clear::after {
+        display: block;
+        content: '';
+        clear: both;
+}

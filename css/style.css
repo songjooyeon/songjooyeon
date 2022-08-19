@@ -1,0 +1,1502 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #151515;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+.clear::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#mainVisual {
+    width: 100%;
+    height: 100vh;
+}
+
+#mainVisual .mainVisualin {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+#mainVisual .video {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#mainVisual .video video {
+    width: 100%;
+    height: auto;
+}
+
+.gnb {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gnb li {
+    float: left;
+    margin-right: 50px;
+}
+
+.gnb li:last-child {
+    margin-right: 0;
+}
+
+.gnb li a {
+    color: #fff;
+}
+
+.mainVisualin .txt {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.mainVisualin .txt .p1 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 23px;
+    padding-left: 180px;
+}
+
+.mainVisualin .txt h1 {
+    font-size: 70px;
+}
+
+.mainVisualin .txt .p2 {
+    margin-top: 30px;
+    margin-left: 60px;
+    font-weight: 200;
+}
+
+.mainVisualin .box {
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainVisualin .box img {
+    width: 100%;
+    height: auto;
+}
+
+.mainVisualin .number {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.mainVisualin .fa-bars {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    color: #fff;
+    font-size: 35px;
+}
+
+/* **************************************************/
+
+#cont1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+#cont1 .cont1in {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+}
+
+#cont1 .cont1in h2 {
+    padding-top: 70px;
+    color: #311e9e;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#cont1 .cont1in .img img {
+    width: 600px;
+}
+
+#cont1 .cont1in .img {
+    position: absolute;
+    right: 0;
+    top: 140px;
+}
+
+#cont1 .cont1in .about {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    z-index: 10;
+}
+
+#cont1 .cont1in .txt1 {
+    position: absolute;
+    top: 320px;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 300;
+    left: 23px;
+}
+
+#cont1 .cont1in .bar {
+    position: absolute;
+    top: 344px;
+    left: 20px;
+}
+
+#cont1 .cont1in .Txt {
+    padding-top: 400px;
+    width: 460px;
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+#cont1 .cont1in .Txt .txt2 {
+    padding-bottom: 20px;
+}
+
+#cont1 .cont1in .Txt .txt3 {
+    padding-bottom: 20px;
+}
+
+#cont1 .cont1in .Txt .txt4 {
+    padding-bottom: 20px;
+}
+
+/* ***************************************************** */
+#cont2 {
+    width: 100%;
+    height: 100vh;
+}
+
+#cont2 .cont2in {
+    width: 100%;
+    height: 680px;
+    background: url(../img/skil.jpg) no-repeat center center;
+}
+
+#cont2 .bottom {
+    width: 100%;
+    height: 400px;
+    background-color: #80b2ed;
+}
+
+#cont2 .bottom .bottomin {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#cont2 .bottom h2 {
+    color: #fff;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+#cont2 .bottom .bottomin .skill {
+    position: absolute;
+    left: 200px;
+}
+
+#cont2 .bottom img {
+    width: 80px;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+
+#cont2 .bottom .fa-html5 {
+    font-size: 80px;
+    color: #fff;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+#cont2 .bottom .fa-css3 {
+    font-size: 80px;
+    color: #fff;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+#cont2 .bottom .fa-js {
+    font-size: 80px;
+    color: #fff;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+
+#cont2 .bottom .t1 {
+    color: #fff;
+    width: 350px;
+    position: absolute;
+    top: 235px;
+    left: 160px;
+}
+
+#cont2 .bottom .t2 {
+    color: #fff;
+    position: absolute;
+    top: 235px;
+    width: 400px;
+    right: 200px;
+}
+
+/* ********************************* */
+#cont3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+#cont3 .cont3in {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+
+#cont3 .cont3in img {
+    width: 550px;
+    position: absolute;
+    left: 20px;
+    top: 15%;
+}
+
+#cont3 .cont3in h2 {
+    color: #311e9e;
+    position: absolute;
+    left: 50%;
+    top: 15.5%;
+}
+
+#cont3 .cont3in .dl1 {
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 22%;
+}
+
+#cont3 .cont3in .dl1 dt {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+#cont3 .cont3in .dl1 dd {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#cont3 .cont3in .dl2 {
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 38%;
+}
+
+#cont3 .cont3in .dl2 dt {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+#cont3 .cont3in .dl2 dd {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#cont3 .cont3in .dl3 {
+    width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+}
+
+#cont3 .cont3in .dl3 dt {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+#cont3 .cont3in .dl3 dd {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#cont3 .cont3in h3 {
+    color: #311e9e;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    font-size: 25px;
+}
+
+#cont3 .cont3in p {
+    width: 600px;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+/* **************************portfolio1******************* */
+
+#portfolio1 {
+    width: 100%;
+    height: 100vh;
+    background-color: #ebae09;
+}
+
+#portfolio1 .portfolio1in {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#portfolio1 .mockup {
+    width: 700px;
+    height: 500px;
+    box-shadow: 0 0 15px #151515;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+#portfolio1 .mockup figure {
+    position: relative;
+    padding-bottom: 52%;
+}
+
+#portfolio1 .mockup figure img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 2s;
+    cursor: pointer;
+}
+
+#portfolio1 .mockup figure img:hover {
+    transform: translateY(-100%);
+    top: 140%;
+}
+
+#portfolio1 .portfolio1in h2 {
+    position: absolute;
+    top: 26%;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+#portfolio1 .portfolio1in h4 {
+    position: absolute;
+    top: 31%;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#portfolio1 .portfolio1in span {
+    width: 450px;
+    height: 1px;
+    background-color: #151515;
+    font-size: 0;
+    position: absolute;
+    top: 35%;
+}
+
+#portfolio1 .portfolio1in dl {
+    position: absolute;
+    top: 37%;
+}
+
+#portfolio1 .portfolio1in dl dt {
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+#portfolio1 .portfolio1in dl dd {
+    width: 450px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+#portfolio1 .portfolio1in .txt1 {
+    position: absolute;
+    top: 47%;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+#portfolio1 .portfolio1in .txt2 {
+    position: absolute;
+    top: 53%;
+}
+
+#portfolio1 .portfolio1in .txt2 p {
+    padding-bottom: 20px;
+}
+
+#portfolio1 .portfolio1in .txt2 strong {
+    font-size: 22px;
+    padding-right: 20px;
+}
+
+/* guied */
+#portfolio1 .portfolio1in .view {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    background: #fff;
+    border: 2px solid var(--mc);
+    color: #777;
+    padding: 0.45rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: 0.3s;
+    border-radius: 20rem;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#portfolio1 .portfolio1in .guide figure {
+    display: none;
+}
+
+
+#portfolio1 .portfolio1in .guide .g {
+    position: absolute;
+    top: 70%;
+    left: 170px;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    background: #fff;
+    border: 2px solid var(--mc);
+    color: #777;
+    padding: 0.45rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: 0.3s;
+    border-radius: 20rem;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#portfolio1 .portfolio1in .view:hover {
+    font-weight: 500;
+    background-color: #000;
+    width: 10%;
+    color: #fff;
+}
+
+#portfolio1 .portfolio1in .guide .g:hover {
+    font-weight: 500;
+    background-color: #000;
+    width: 10%;
+    color: #fff;
+}
+
+#portfolio1 .portfolio1in .guide figure {
+    position: absolute;
+    width: 1300px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 0px;
+    border: 1px solid #191919;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    overflow-y: scroll;
+    z-index: 100;
+}
+
+
+#portfolio1 .portfolio1in .guide figure img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio1 .portfolio1in .guide .fa-xmark {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#portfolio1 .portfolio1in .guide .fa-xmark:hover {
+    background: none;
+}
+
+/* **************************portfolio2******************* */
+#portfolio2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #172318;
+}
+
+#portfolio2 .portfolio2in {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#portfolio2 .portfolio2in .mockup {
+    width: 700px;
+    height: 500px;
+    box-shadow: 0 0 15px #151515;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+#portfolio2 .portfolio2in .mockup figure {
+    position: relative;
+    padding-bottom: 52%;
+}
+
+#portfolio2 .portfolio2in .mockup figure img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 3s;
+    cursor: pointer;
+}
+
+#portfolio2 .portfolio2in .mockup figure img:hover {
+    transform: translateY(-100%);
+    top: 137%;
+}
+
+#portfolio2 .portfolio2in h2 {
+    position: absolute;
+    top: 26%;
+    font-weight: 900;
+    font-size: 45px;
+    color: #fff;
+}
+
+#portfolio2 .portfolio2in h4 {
+    position: absolute;
+    top: 31%;
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+}
+
+#portfolio2 .portfolio2in span {
+    width: 450px;
+    height: 1px;
+    background-color: #fff;
+    font-size: 0;
+    position: absolute;
+    top: 35%;
+    color: #fff;
+}
+
+#portfolio2 .portfolio2in dl {
+    position: absolute;
+    top: 37%;
+    color: #fff;
+}
+
+#portfolio2 .portfolio2in dl dt {
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+#portfolio2 .portfolio2in dl dd {
+    width: 450px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+#portfolio2 .portfolio2in .txt1 {
+    position: absolute;
+    top: 47%;
+    font-weight: 200;
+    font-size: 12px;
+    color: #fff;
+}
+
+#portfolio2 .portfolio2in .txt2 {
+    position: absolute;
+    top: 53%;
+    color: #fff;
+}
+
+#portfolio2 .portfolio2in .txt2 p {
+    padding-bottom: 20px;
+}
+
+#portfolio2 .portfolio2in .txt2 strong {
+    font-size: 22px;
+    padding-right: 20px;
+}
+
+#portfolio2 .portfolio2in .view {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    background: #fff;
+    border: 2px solid var(--mc);
+    color: #777;
+    padding: 0.45rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: 0.3s;
+    border-radius: 20rem;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#portfolio2 .portfolio2in .guide figure {
+    display: none;
+}
+
+
+#portfolio2 .portfolio2in .guide .g {
+    position: absolute;
+    top: 70%;
+    left: 170px;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    background: #fff;
+    border: 2px solid var(--mc);
+    color: #777;
+    padding: 0.45rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: 0.3s;
+    border-radius: 20rem;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#portfolio2 .portfolio2in .view:hover {
+    font-weight: 500;
+    background-color: #000;
+    width: 10%;
+    color: #fff;
+}
+
+#portfolio2 .portfolio2in .guide .g:hover {
+    font-weight: 500;
+    background-color: #000;
+    width: 10%;
+    color: #fff;
+}
+
+#portfolio2 .portfolio2in .guide figure {
+    position: absolute;
+    width: 1300px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 0px;
+    border: 1px solid #191919;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    overflow-y: scroll;
+    z-index: 100;
+}
+
+
+#portfolio2 .portfolio2in .guide figure img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio2 .portfolio2in .guide .fa-xmark {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#portfolio2 .portfolio2in .guide .fa-xmark:hover {
+    background: none;
+}
+
+/* *************** portfolio3 *************** */
+#portfolio3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #fbe4ec;
+}
+
+#portfolio3 .portfolio3in {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#portfolio3 .portfolio3in .mockup {
+    width: 700px;
+    height: 500px;
+    box-shadow: 0 0 15px #151515;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+#portfolio3 .portfolio3in .mockup figure {
+    position: relative;
+    padding-bottom: 52%;
+}
+
+#portfolio3 .portfolio3in .mockup figure img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 3s;
+    cursor: pointer;
+}
+
+#portfolio3 .portfolio3in .mockup figure img:hover {
+    transform: translateY(-100%);
+    top: 137%;
+}
+
+#portfolio3 .portfolio3in h2 {
+    position: absolute;
+    top: 26%;
+    font-weight: 900;
+    font-size: 45px;
+
+}
+
+#portfolio3 .portfolio3in h4 {
+    position: absolute;
+    top: 31%;
+    font-weight: 500;
+    font-size: 17px;
+
+}
+
+#portfolio3 .portfolio3in span {
+    width: 450px;
+    height: 1px;
+    font-size: 0;
+    position: absolute;
+    top: 35%;
+    background-color: #000;
+}
+
+#portfolio3 .portfolio3in dl {
+    position: absolute;
+    top: 37%;
+}
+
+#portfolio3 .portfolio3in dl dt {
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+#portfolio3 .portfolio3in dl dd {
+    width: 450px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+#portfolio3 .portfolio3in .txt1 {
+    position: absolute;
+    top: 47%;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+#portfolio3 .portfolio3in .txt2 {
+    position: absolute;
+    top: 53%;
+}
+
+#portfolio3 .portfolio3in .txt2 p {
+    padding-bottom: 20px;
+}
+
+#portfolio3 .portfolio3in .txt2 strong {
+    font-size: 22px;
+    padding-right: 20px;
+}
+
+#portfolio3 .portfolio3in .view {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    background: #fff;
+    border: 2px solid var(--mc);
+    color: #777;
+    padding: 0.45rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: 0.3s;
+    border-radius: 20rem;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#portfolio3 .portfolio3in .guide figure {
+    display: none;
+}
+
+
+#portfolio3 .portfolio3in .guide .g {
+    position: absolute;
+    top: 70%;
+    left: 170px;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    background: #fff;
+    border: 2px solid var(--mc);
+    color: #777;
+    padding: 0.45rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: 0.3s;
+    border-radius: 20rem;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#portfolio3 .portfolio3in .view:hover {
+    font-weight: 500;
+    background-color: #000;
+    width: 10%;
+    color: #fff;
+}
+
+#portfolio3 .portfolio3in .guide .g:hover {
+    font-weight: 500;
+    background-color: #000;
+    width: 10%;
+    color: #fff;
+}
+
+#portfolio3 .portfolio3in .guide figure {
+    position: absolute;
+    width: 1300px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 0px;
+    border: 1px solid #191919;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    overflow-y: scroll;
+    z-index: 100;
+}
+
+
+#portfolio3 .portfolio3in .guide figure img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio3 .portfolio3in .guide .fa-xmark {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#portfolio3 .portfolio3in .guide .fa-xmark:hover {
+    background: none;
+}
+
+/* ************** portfolio4**************** */
+#portfolio4 {
+    width: 100%;
+    height: 100vh;
+    background-color: #938aff;
+}
+
+#portfolio4 .portfolio4in {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#portfolio4 .portfolio4in .mockup figure {
+    position: absolute;
+    top: 18%;
+    right: 0;
+}
+
+#portfolio4 .portfolio4in .mockup figure img {
+    width: 500px;
+}
+
+#portfolio4 .portfolio4in h2 {
+    position: absolute;
+    top: 26%;
+    font-weight: 900;
+    font-size: 45px;
+    color: #fff;
+}
+
+#portfolio4 .portfolio4in h4 {
+    position: absolute;
+    top: 31%;
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+}
+
+#portfolio4 .portfolio4in span {
+    width: 450px;
+    height: 1px;
+    background-color: #fff;
+    font-size: 0;
+    position: absolute;
+    top: 35%;
+    color: #fff;
+}
+
+#portfolio4 .portfolio4in dl {
+    position: absolute;
+    top: 37%;
+    color: #fff;
+}
+
+#portfolio4 .portfolio4in dl dt {
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+#portfolio4 .portfolio4in dl dd {
+    width: 450px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+#portfolio4 .portfolio4in .txt1 {
+    position: absolute;
+    top: 47%;
+    font-weight: 200;
+    font-size: 12px;
+    color: #fff;
+}
+
+#portfolio4 .portfolio4in .txt2 {
+    position: absolute;
+    top: 53%;
+    color: #fff;
+}
+
+#portfolio4 .portfolio4in .txt2 p {
+    padding-bottom: 20px;
+}
+
+#portfolio4 .portfolio4in .txt2 strong {
+    font-size: 22px;
+    padding-right: 20px;
+}
+
+#portfolio4 .portfolio4in .view {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    background: #fff;
+    border: 2px solid var(--mc);
+    color: #777;
+    padding: 0.45rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: 0.3s;
+    border-radius: 20rem;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#portfolio4 .portfolio4in .guide figure {
+    display: none;
+}
+
+
+#portfolio4 .portfolio4in .guide .g {
+    position: absolute;
+    top: 70%;
+    left: 170px;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    background: #fff;
+    border: 2px solid var(--mc);
+    color: #777;
+    padding: 0.45rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: 0.3s;
+    border-radius: 20rem;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#portfolio4 .portfolio4in .view:hover {
+    font-weight: 500;
+    background-color: #000;
+    width: 10%;
+    color: #fff;
+}
+
+#portfolio4 .portfolio4in .guide .g:hover {
+    font-weight: 500;
+    background-color: #000;
+    width: 10%;
+    color: #fff;
+}
+
+#portfolio4 .portfolio4in .guide figure {
+    position: absolute;
+    width: 1300px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 0px;
+    border: 1px solid #191919;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    overflow-y: scroll;
+    z-index: 100;
+}
+
+
+#portfolio4 .portfolio4in .guide figure img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio4 .portfolio4in .guide .fa-xmark {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#portfolio4 .portfolio4in .guide .fa-xmark:hover {
+    background: none;
+}
+
+/* ***************portfolio5 *************** */
+#portfolio5 {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+#portfolio5 .portfolio5in {
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+#portfolio5 .portfolio5in .mockup {
+    width: 700px;
+    height: 500px;
+    box-shadow: 0 0 15px #151515;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+
+#portfolio5 .portfolio5in .mockup figure {
+    position: relative;
+    padding-bottom: 52%;
+}
+
+#portfolio5 .portfolio5in .mockup figure img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 3s;
+    cursor: pointer;
+}
+
+#portfolio5 .portfolio5in .mockup figure img:hover {
+    transform: translateY(-100%);
+    top: 137%;
+}
+
+#portfolio5 .portfolio5in h2 {
+    position: absolute;
+    top: 26%;
+    font-weight: 900;
+    font-size: 45px;
+    color: #fff;
+}
+
+#portfolio5 .portfolio5in h4 {
+    position: absolute;
+    top: 31%;
+    font-weight: 500;
+    font-size: 17px;
+    color: #fff;
+}
+
+#portfolio5 .portfolio5in span {
+    width: 450px;
+    height: 1px;
+    background-color: #fff;
+    font-size: 0;
+    position: absolute;
+    top: 35%;
+    color: #fff;
+}
+
+#portfolio5 .portfolio5in dl {
+    position: absolute;
+    top: 37%;
+    color: #fff;
+}
+
+#portfolio5 .portfolio5in dl dt {
+    font-weight: 500;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+#portfolio5 .portfolio5in dl dd {
+    width: 450px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+#portfolio5 .portfolio5in .txt1 {
+    position: absolute;
+    top: 47%;
+    font-weight: 200;
+    font-size: 12px;
+    color: #fff;
+}
+
+#portfolio5 .portfolio5in .txt2 {
+    position: absolute;
+    top: 53%;
+    color: #fff;
+}
+
+#portfolio5 .portfolio5in .txt2 p {
+    padding-bottom: 20px;
+}
+
+#portfolio5 .portfolio5in .txt2 strong {
+    font-size: 22px;
+    padding-right: 20px;
+}
+
+#portfolio5 .portfolio5in .view {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    background: #fff;
+    border: 2px solid var(--mc);
+    color: #777;
+    padding: 0.45rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: 0.3s;
+    border-radius: 20rem;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#portfolio5 .portfolio5in .guide figure {
+    display: none;
+}
+
+#portfolio5 .portfolio5in .guide .g {
+    position: absolute;
+    top: 70%;
+    left: 170px;
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    background: #fff;
+    border: 2px solid var(--mc);
+    color: #777;
+    padding: 0.45rem 1.5rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: 0.3s;
+    border-radius: 20rem;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#portfolio5 .portfolio5in .view:hover {
+    font-weight: 500;
+    background-color: #fff;
+    width: 10%;
+    color: #000;
+}
+
+#portfolio5 .portfolio5in .guide .g:hover {
+    font-weight: 500;
+    background-color: #fff;
+    width: 10%;
+    color: #000;
+}
+
+#portfolio5 .portfolio5in .guide figure {
+    position: absolute;
+    width: 1300px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 0px;
+    border: 1px solid #191919;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    overflow-y: scroll;
+    z-index: 100;
+}
+
+
+#portfolio5 .portfolio5in .guide figure img {
+    width: 100%;
+    height: auto;
+}
+
+#portfolio5 .portfolio5in .guide .fa-xmark {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#portfolio5 .portfolio5in .guide .fa-xmark:hover {
+    background: none;
+}
+
+#topBtn {
+    display: block;
+    width: 80px;
+    height: 50px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 30px;
+    border-radius: 10px;
+    right: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#topBtn .fa-angle-up {
+    font-size: 22px;
+}
+
+#topBtn:hover {
+    background-color: #80b2ed;
+}
+
+#topBtn:hover .fa-angle-up {
+    color: #fff;
+}
+
+#portfolio6 {
+    width: 100%;
+    height: 100vh;
+}
+
+#portfolio6 img {
+    width: 100%;
+    height: 100%;
+}
+
+.mobile {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+}
+
+.mobile .fa-x {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.mobile .gnb_m {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mobile .gnb_m>li>a {
+    padding-bottom: 20px;
+    font-size: 35px;
+    line-height: 2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.mobile .gnb_m li:hover a {
+    color: #80b2ed;
+}
