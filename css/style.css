@@ -1,3 +1,8 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
 * {
     margin: 0;
     padding: 0;
@@ -32,8 +37,6 @@ img {
     content: '';
     clear: both;
 }
-
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 .notosanskr * {
     font-family: 'Noto Sans KR', sans-serif;
@@ -226,8 +229,8 @@ img {
 
 #cont2 .cont2in {
     width: 100%;
-    height: 680px;
-    background: url(../img/skil.jpg) no-repeat center center;
+    height: 630px;
+    background: url(../img/skil.jpg) no-repeat ;
 }
 
 #cont2 .bottom {
@@ -245,7 +248,7 @@ img {
 
 #cont2 .bottom h2 {
     color: #fff;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-left: 20px;
 }
 
