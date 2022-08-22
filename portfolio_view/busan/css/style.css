@@ -1,3 +1,9 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -197,7 +203,7 @@ img {
     font-weight: 500;
     width: 1000px;
     position: absolute;
-    right: 10%;
+    right: 8%;
     top: 22%;
 }
 
@@ -343,7 +349,7 @@ img {
 }
 
 #cont3 .cont3in a:hover {
-    background: #e7c389;
+    background: #ebae09;
     font-weight: 500;
     border-bottom-right-radius: 0%;
 }
@@ -472,4 +478,32 @@ img {
 #footer .footerin ul li:hover a {
     color: #151515;
     text-decoration: underline;
+}
+#topBtn {
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 30px;
+    border-radius: 50%;
+    right: 30px;
+    text-align: center;
+    line-height: 70px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#topBtn .fa-angle-up {
+    font-size: 22px;
+}
+
+#topBtn:hover {
+    background-color: #ebae09;
+}
+
+#topBtn:hover .fa-angle-up {
+    color: #fff;
 }
